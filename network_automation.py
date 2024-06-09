@@ -1,3 +1,4 @@
+# Databricks notebook source
 # Connect to a linux server using ssh and execute commands  
 
 import paramiko
@@ -24,3 +25,4 @@ if __name__ == "__main__":
     PASSWORD='xxxxxx'
     USERNAME='xxxxxx'
     connect_and_run_command(IP_ADDRESS, USERNAME, PASSWORD, 'who;ip address\n')
+    
